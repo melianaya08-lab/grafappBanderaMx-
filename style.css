@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.contenedor-controles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.control {
+    width: 30%;
+}
+
+.titulo {
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.bandera {
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+
+.franja {
+    flex: 1;
+}
+
+#franjaVerde {
+    background-color: #009900;
+}
+
+#franjaRoja {
+    background-color: #9D0000;
+}
+
+.blanca {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanca img {
+    width: 120px;
+}
+
+.integrantes {
+    margin-top: 30px;
+    font-size: 16px;
+}

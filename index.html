@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bandera de México</h1>
+
+    <div class="contenedor-controles">
+
+        <div class="control">
+            <p class="titulo">Esperanza</p>
+            <hr>
+            <input type="range" id="verde" min="0" max="255" value="153">
+            <p id="valorVerde">#009900</p>
+        </div>
+
+        <div class="control">
+            <p class="titulo">Unidad</p>
+            <hr>
+            <p>#FFFFFF</p>
+        </div>
+
+        <div class="control">
+            <p class="titulo">Sangre de nuestros héroes nacionales</p>
+            <hr>
+            <input type="range" id="rojo" min="0" max="255" value="157">
+            <p id="valorRojo">#9D0000</p>
+        </div>
+
+    </div>
+
+    <div class="bandera">
+
+        <div id="franjaVerde" class="franja"></div>
+
+        <div class="franja blanca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/250px-Coat_of_arms_of_Mexico.svg.png" 
+                 alt="Escudo de México">
+        </div>
+
+        <div id="franjaRoja" class="franja"></div>
+
+    </div>
+
+    <div class="integrantes">
+        <p>Cruz Perez Nelida Yareni - 23200824</p>
+        <p>Villa Anaya Melina - 23200906</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
